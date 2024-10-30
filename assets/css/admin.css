@@ -1,0 +1,29 @@
+.icl-container {
+    display: table;
+
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px 6%;
+    box-sizing: border-box;
+
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.icl-container, .icl-container p, .icl-container li{
+    font-size: 110%;
+}
+
+.icl-container .icl-logo{
+    display: table;
+    margin: 0 auto 40px;
+}
+
+.icl-container b{
+    font-weight: bold;
+}
+
+.icl-container li{
+    list-style: inside;
+}
